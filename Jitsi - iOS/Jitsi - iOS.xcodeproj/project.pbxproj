@@ -1,0 +1,543 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		167203081BB4244800A95AEC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 167203071BB4244800A95AEC /* AppDelegate.swift */; };
+		1672030A1BB4244800A95AEC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 167203091BB4244800A95AEC /* ViewController.swift */; };
+		1672030D1BB4244800A95AEC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1672030B1BB4244800A95AEC /* Main.storyboard */; };
+		1672030F1BB4244800A95AEC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1672030E1BB4244800A95AEC /* Assets.xcassets */; };
+		167203121BB4244800A95AEC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 167203101BB4244800A95AEC /* LaunchScreen.storyboard */; };
+		1672031D1BB4244800A95AEC /* Jitsi___iOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1672031C1BB4244800A95AEC /* Jitsi___iOSTests.swift */; };
+		167203281BB4244800A95AEC /* Jitsi___iOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 167203271BB4244800A95AEC /* Jitsi___iOSUITests.swift */; };
+		167203381BB42D5200A95AEC /* MeetingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 167203371BB42D5200A95AEC /* MeetingViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		16B13CA81BBC55B2008BAA6A /* AppIcon-2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 16B13CA61BBC55B2008BAA6A /* AppIcon-2x.png */; settings = {ASSET_TAGS = (); }; };
+		16B13CA91BBC55B2008BAA6A /* AppIcon-3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 16B13CA71BBC55B2008BAA6A /* AppIcon-3x.png */; settings = {ASSET_TAGS = (); }; };
+		16FBAB801BBB600A00460ECA /* Stickers-Jitsi.png in Resources */ = {isa = PBXBuildFile; fileRef = 16FBAB7F1BBB600A00460ECA /* Stickers-Jitsi.png */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		167203191BB4244800A95AEC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 167202FC1BB4244800A95AEC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 167203031BB4244800A95AEC;
+			remoteInfo = "Jitsi - iOS";
+		};
+		167203241BB4244800A95AEC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 167202FC1BB4244800A95AEC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 167203031BB4244800A95AEC;
+			remoteInfo = "Jitsi - iOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		167203041BB4244800A95AEC /* Jitsi - iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Jitsi - iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		167203071BB4244800A95AEC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		167203091BB4244800A95AEC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1672030C1BB4244800A95AEC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1672030E1BB4244800A95AEC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		167203111BB4244800A95AEC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		167203131BB4244800A95AEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		167203181BB4244800A95AEC /* Jitsi - iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Jitsi - iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1672031C1BB4244800A95AEC /* Jitsi___iOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Jitsi___iOSTests.swift"; sourceTree = "<group>"; };
+		1672031E1BB4244800A95AEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		167203231BB4244800A95AEC /* Jitsi - iOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Jitsi - iOSUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		167203271BB4244800A95AEC /* Jitsi___iOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Jitsi___iOSUITests.swift"; sourceTree = "<group>"; };
+		167203291BB4244800A95AEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		167203371BB42D5200A95AEC /* MeetingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MeetingViewController.swift; sourceTree = "<group>"; };
+		16B13CA61BBC55B2008BAA6A /* AppIcon-2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "AppIcon-2x.png"; path = "image/AppIcon-2x.png"; sourceTree = SOURCE_ROOT; };
+		16B13CA71BBC55B2008BAA6A /* AppIcon-3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "AppIcon-3x.png"; path = "image/AppIcon-3x.png"; sourceTree = SOURCE_ROOT; };
+		16FBAB7F1BBB600A00460ECA /* Stickers-Jitsi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Stickers-Jitsi.png"; path = "../../../Downloads/Stickers-Jitsi.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		167203011BB4244800A95AEC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		167203151BB4244800A95AEC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		167203201BB4244800A95AEC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		167202FB1BB4244800A95AEC = {
+			isa = PBXGroup;
+			children = (
+				167203061BB4244800A95AEC /* Jitsi - iOS */,
+				1672031B1BB4244800A95AEC /* Jitsi - iOSTests */,
+				167203261BB4244800A95AEC /* Jitsi - iOSUITests */,
+				167203051BB4244800A95AEC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		167203051BB4244800A95AEC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				167203041BB4244800A95AEC /* Jitsi - iOS.app */,
+				167203181BB4244800A95AEC /* Jitsi - iOSTests.xctest */,
+				167203231BB4244800A95AEC /* Jitsi - iOSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		167203061BB4244800A95AEC /* Jitsi - iOS */ = {
+			isa = PBXGroup;
+			children = (
+				16BA52521BBB639600D50135 /* image */,
+				167203071BB4244800A95AEC /* AppDelegate.swift */,
+				167203091BB4244800A95AEC /* ViewController.swift */,
+				1672030B1BB4244800A95AEC /* Main.storyboard */,
+				1672030E1BB4244800A95AEC /* Assets.xcassets */,
+				16FBAB7F1BBB600A00460ECA /* Stickers-Jitsi.png */,
+				167203101BB4244800A95AEC /* LaunchScreen.storyboard */,
+				167203131BB4244800A95AEC /* Info.plist */,
+				167203371BB42D5200A95AEC /* MeetingViewController.swift */,
+			);
+			path = "Jitsi - iOS";
+			sourceTree = "<group>";
+		};
+		1672031B1BB4244800A95AEC /* Jitsi - iOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				1672031C1BB4244800A95AEC /* Jitsi___iOSTests.swift */,
+				1672031E1BB4244800A95AEC /* Info.plist */,
+			);
+			path = "Jitsi - iOSTests";
+			sourceTree = "<group>";
+		};
+		167203261BB4244800A95AEC /* Jitsi - iOSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				167203271BB4244800A95AEC /* Jitsi___iOSUITests.swift */,
+				167203291BB4244800A95AEC /* Info.plist */,
+			);
+			path = "Jitsi - iOSUITests";
+			sourceTree = "<group>";
+		};
+		16BA52521BBB639600D50135 /* image */ = {
+			isa = PBXGroup;
+			children = (
+				16B13CA61BBC55B2008BAA6A /* AppIcon-2x.png */,
+				16B13CA71BBC55B2008BAA6A /* AppIcon-3x.png */,
+			);
+			name = image;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		167203031BB4244800A95AEC /* Jitsi - iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1672032C1BB4244800A95AEC /* Build configuration list for PBXNativeTarget "Jitsi - iOS" */;
+			buildPhases = (
+				167203001BB4244800A95AEC /* Sources */,
+				167203011BB4244800A95AEC /* Frameworks */,
+				167203021BB4244800A95AEC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Jitsi - iOS";
+			productName = "Jitsi - iOS";
+			productReference = 167203041BB4244800A95AEC /* Jitsi - iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		167203171BB4244800A95AEC /* Jitsi - iOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1672032F1BB4244800A95AEC /* Build configuration list for PBXNativeTarget "Jitsi - iOSTests" */;
+			buildPhases = (
+				167203141BB4244800A95AEC /* Sources */,
+				167203151BB4244800A95AEC /* Frameworks */,
+				167203161BB4244800A95AEC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1672031A1BB4244800A95AEC /* PBXTargetDependency */,
+			);
+			name = "Jitsi - iOSTests";
+			productName = "Jitsi - iOSTests";
+			productReference = 167203181BB4244800A95AEC /* Jitsi - iOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		167203221BB4244800A95AEC /* Jitsi - iOSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 167203321BB4244800A95AEC /* Build configuration list for PBXNativeTarget "Jitsi - iOSUITests" */;
+			buildPhases = (
+				1672031F1BB4244800A95AEC /* Sources */,
+				167203201BB4244800A95AEC /* Frameworks */,
+				167203211BB4244800A95AEC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				167203251BB4244800A95AEC /* PBXTargetDependency */,
+			);
+			name = "Jitsi - iOSUITests";
+			productName = "Jitsi - iOSUITests";
+			productReference = 167203231BB4244800A95AEC /* Jitsi - iOSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		167202FC1BB4244800A95AEC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = LIUYE;
+				TargetAttributes = {
+					167203031BB4244800A95AEC = {
+						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = GX7UFQ27DB;
+					};
+					167203171BB4244800A95AEC = {
+						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = GX7UFQ27DB;
+						TestTargetID = 167203031BB4244800A95AEC;
+					};
+					167203221BB4244800A95AEC = {
+						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = GX7UFQ27DB;
+						TestTargetID = 167203031BB4244800A95AEC;
+					};
+				};
+			};
+			buildConfigurationList = 167202FF1BB4244800A95AEC /* Build configuration list for PBXProject "Jitsi - iOS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 167202FB1BB4244800A95AEC;
+			productRefGroup = 167203051BB4244800A95AEC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				167203031BB4244800A95AEC /* Jitsi - iOS */,
+				167203171BB4244800A95AEC /* Jitsi - iOSTests */,
+				167203221BB4244800A95AEC /* Jitsi - iOSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		167203021BB4244800A95AEC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				167203121BB4244800A95AEC /* LaunchScreen.storyboard in Resources */,
+				16FBAB801BBB600A00460ECA /* Stickers-Jitsi.png in Resources */,
+				16B13CA81BBC55B2008BAA6A /* AppIcon-2x.png in Resources */,
+				1672030F1BB4244800A95AEC /* Assets.xcassets in Resources */,
+				1672030D1BB4244800A95AEC /* Main.storyboard in Resources */,
+				16B13CA91BBC55B2008BAA6A /* AppIcon-3x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		167203161BB4244800A95AEC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		167203211BB4244800A95AEC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		167203001BB4244800A95AEC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				167203381BB42D5200A95AEC /* MeetingViewController.swift in Sources */,
+				1672030A1BB4244800A95AEC /* ViewController.swift in Sources */,
+				167203081BB4244800A95AEC /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		167203141BB4244800A95AEC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1672031D1BB4244800A95AEC /* Jitsi___iOSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1672031F1BB4244800A95AEC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				167203281BB4244800A95AEC /* Jitsi___iOSUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1672031A1BB4244800A95AEC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 167203031BB4244800A95AEC /* Jitsi - iOS */;
+			targetProxy = 167203191BB4244800A95AEC /* PBXContainerItemProxy */;
+		};
+		167203251BB4244800A95AEC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 167203031BB4244800A95AEC /* Jitsi - iOS */;
+			targetProxy = 167203241BB4244800A95AEC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1672030B1BB4244800A95AEC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1672030C1BB4244800A95AEC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		167203101BB4244800A95AEC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				167203111BB4244800A95AEC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1672032A1BB4244800A95AEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1672032B1BB4244800A95AEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1672032D1BB4244800A95AEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "Jitsi - iOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				New_Setting = "";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Jitsi.Jitsi---iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1672032E1BB4244800A95AEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "Jitsi - iOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				New_Setting = "";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Jitsi.Jitsi---iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		167203301BB4244800A95AEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Jitsi - iOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Jitsi.Jitsi---iOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Jitsi - iOS.app/Jitsi - iOS";
+			};
+			name = Debug;
+		};
+		167203311BB4244800A95AEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Jitsi - iOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Jitsi.Jitsi---iOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Jitsi - iOS.app/Jitsi - iOS";
+			};
+			name = Release;
+		};
+		167203331BB4244800A95AEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Jitsi - iOSUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Jitsi.Jitsi---iOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Jitsi - iOS";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		167203341BB4244800A95AEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Jitsi - iOSUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Jitsi.Jitsi---iOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Jitsi - iOS";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		167202FF1BB4244800A95AEC /* Build configuration list for PBXProject "Jitsi - iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1672032A1BB4244800A95AEC /* Debug */,
+				1672032B1BB4244800A95AEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1672032C1BB4244800A95AEC /* Build configuration list for PBXNativeTarget "Jitsi - iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1672032D1BB4244800A95AEC /* Debug */,
+				1672032E1BB4244800A95AEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1672032F1BB4244800A95AEC /* Build configuration list for PBXNativeTarget "Jitsi - iOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				167203301BB4244800A95AEC /* Debug */,
+				167203311BB4244800A95AEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		167203321BB4244800A95AEC /* Build configuration list for PBXNativeTarget "Jitsi - iOSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				167203331BB4244800A95AEC /* Debug */,
+				167203341BB4244800A95AEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 167202FC1BB4244800A95AEC /* Project object */;
+}
